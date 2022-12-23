@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2249026474452631756
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5695942978572439159}
+  - component: {fileID: 362548321307329202}
+  - component: {fileID: 362548321307329164}
+  m_Layer: 0
+  m_Name: DialogueTrigger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5695942978572439159
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2249026474452631756}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -8.18, y: -1.91, z: 7.248809}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &362548321307329202
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2249026474452631756}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -1.7317092}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.4811529}
+  m_EdgeRadius: 0
+--- !u!114 &362548321307329164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2249026474452631756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a17bc45486f7f438d892571a187db5da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogue:
+    sentences:
+    - "Kchhkck\u2026kchhhhkchhhkkkk\u2026hello? Hello, is anyone there? This is the
+      Commander! Is that you, Zeus??? Are you able to understand me? Hello?"
+    - "Kcchhhkk\u2026kckcchhhckk\u2026How\u2019d you\u2026? Rats! I forgot you can\u2019t
+      talk. Kcchhhkk\u2026Well, never mind, there isn\u2019t time."
+    - "Kchhkck\u2026The shields are busted and none of the crew members are able
+      to get over to the control room to fix them! You\u2019ll have to do it! "
+    - "Kchhkck\u2026Kchhkck\u2026I\u2019ll get on coms with you whenever I can, but
+      for now just follow the red wire that runs through the wall!"
+    - "Kchhkck\u2026It\u2019ll take you where you need to go. Kchhkck\u2026"
+    - "Kchhkck\u2026kchhhhkchhhkkkk\u2026oh no\u2026they\u2019ve breached the hull.
+      I have to go! Kchhkck\u2026Kchhkck\u2026"
+    - "We\u2019re counting on you! I\u2019ll be in touch! Kchhkck\u2026 kchhhhkchhhkkkk\u2026"
+  collider: {fileID: 362548321307329202}
+  dialogueBox: {fileID: 0}
